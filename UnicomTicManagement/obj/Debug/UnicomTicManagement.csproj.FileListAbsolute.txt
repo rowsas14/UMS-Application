@@ -1,0 +1,17 @@
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\bin\Debug\UnicomTicManagement.exe.config
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\bin\Debug\UnicomTicManagement.exe
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\bin\Debug\UnicomTicManagement.pdb
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.csproj.AssemblyReference.cache
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.Properties.Resources.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.csproj.GenerateResource.cache
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.exe
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.pdb
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.exe.config
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\bin\Debug\System.Data.SQLite.dll
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\bin\Debug\System.Data.SQLite.xml
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTi.97F2F5D4.Up2Date
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.LoginForm.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.AdminDashboard.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.StudentForm.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.StViewForm.resources
