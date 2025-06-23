@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace UnicomTicManagement.Model
 {
-    internal class Teacher:User
-    {     
-        //public int UserId { get; set; }
-        public int TeacherId { get; set; }
+    internal class Course
+    {
         public int CourseId { get; set; }
         public string CourseName { get; set; }
-        public string Designation { get; set; }
     }
 }
-

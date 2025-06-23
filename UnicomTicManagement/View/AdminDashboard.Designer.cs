@@ -31,10 +31,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.btnStudent = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -63,6 +63,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.btnStudent);
             this.panel2.Controls.Add(this.button2);
@@ -72,17 +73,18 @@
             this.panel2.Size = new System.Drawing.Size(239, 805);
             this.panel2.TabIndex = 1;
             // 
-            // panel3
+            // button3
             // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(237, 35);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(887, 805);
-            this.panel3.TabIndex = 2;
+            this.button3.Location = new System.Drawing.Point(67, 177);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // btnStudent
             // 
-            this.btnStudent.Location = new System.Drawing.Point(67, 187);
+            this.btnStudent.Location = new System.Drawing.Point(67, 66);
             this.btnStudent.Name = "btnStudent";
             this.btnStudent.Size = new System.Drawing.Size(75, 23);
             this.btnStudent.TabIndex = 0;
@@ -92,21 +94,21 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(67, 235);
+            this.button2.Location = new System.Drawing.Point(67, 118);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // panel3
             // 
-            this.button3.Location = new System.Drawing.Point(67, 300);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(237, 35);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(887, 805);
+            this.panel3.TabIndex = 2;
             // 
             // AdminDashboard
             // 

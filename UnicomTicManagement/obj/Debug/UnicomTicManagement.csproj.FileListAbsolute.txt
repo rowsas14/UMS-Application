@@ -14,4 +14,5 @@ C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debu
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.LoginForm.resources
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.AdminDashboard.resources
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.StudentForm.resources
-C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.StViewForm.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.CourseForm.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.RegisterForm.resources

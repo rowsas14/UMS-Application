@@ -21,7 +21,6 @@ namespace UnicomTicManagement.Controller
 
                 using (var conn = DbCon.GetConnection())
                 {
-                   
                     string userSql = @"
                     INSERT INTO Users (Name, Username, Password, Email, Role)
                     VALUES (@Name, @Username, @Password, @Email, @Role);
@@ -38,20 +37,19 @@ namespace UnicomTicManagement.Controller
                         userId = Convert.ToInt32(cmd.ExecuteScalar());
                     }
 
-               
                     if (user is Student student)
                     {
-                        var cmd = new SQLiteCommand("INSERT INTO Students (UserId, StudentNumber, Department) VALUES (@UserId, @StudentNumber, @Department)", conn);
+                        var cmd = new SQLiteCommand("INSERT INTO Students (UserId, StudentNumber, CourseId) VALUES (@UserId, @StudentNumber, @CourseId)", conn);
                         cmd.Parameters.AddWithValue("@UserId", userId);
                         cmd.Parameters.AddWithValue("@StudentNumber", student.StudentNumber);
-                        cmd.Parameters.AddWithValue("@Department", student.Department);
+                        cmd.Parameters.AddWithValue("@CourseId", student.CourseId);
                         cmd.ExecuteNonQuery();
                     }
                     else if (user is Teacher teacher)
                     {
-                        var cmd = new SQLiteCommand("INSERT INTO Teachers (UserId, Department, Designation) VALUES (@UserId, @Department, @Designation)", conn);
+                        var cmd = new SQLiteCommand("INSERT INTO Teachers (UserId, CourseId, Designation) VALUES (@UserId, @CourseId, @Designation)", conn);
                         cmd.Parameters.AddWithValue("@UserId", userId);
-                        cmd.Parameters.AddWithValue("@Department", teacher.Department);
+                        cmd.Parameters.AddWithValue("@CourseId", teacher.CourseId);
                         cmd.Parameters.AddWithValue("@Designation", teacher.Designation);
                         cmd.ExecuteNonQuery();
                     }
@@ -78,8 +76,13 @@ namespace UnicomTicManagement.Controller
                 return "Error: " + ex.Message;
             }
         }
+
+        //internal string RegisterUser(string name, string username, string password, string email, string role, string department, string designation)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 
 
+
 }
-  

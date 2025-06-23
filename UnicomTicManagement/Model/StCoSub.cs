@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace UnicomTicManagement.Model
 {
-    public class Student : User
+    public class StCoSub
     {
-        public int StudentId { get; set; }
-        public string StudentNumber { get; set; }
-        public int CourseId { get; set; }
+        public string StudentName { get; set; }
         public string CourseName { get; set; }
+        public string SubjectName { get; set; }
+
+
+
+
     }
 }

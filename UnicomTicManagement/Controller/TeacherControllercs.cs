@@ -9,7 +9,7 @@ using UnicomTicManagement.Model;
 
 namespace UnicomTicManagement.Controller
 {
-    internal class TeacherControllercs
+    internal class TeacherController
     {
         public List<Teacher> GetAllTeachers()
         {
@@ -18,9 +18,11 @@ namespace UnicomTicManagement.Controller
             using (var conn = DbCon.GetConnection())
             {
                 string query = @"
-                SELECT t.TeacherId, t.Department, t.Designation,
+                SELECT t.TeacherId, t.CourseId, t.Designation,
+                       c.CourseName,
                        u.UserId, u.Name, u.Username, u.Password, u.Email, u.Role
                 FROM Teachers t
+                LEFT JOIN Courses c ON t.CourseId = c.CourseId
                 INNER JOIN Users u ON t.UserId = u.UserId";
 
                 using (var cmd = new SQLiteCommand(query, conn))
@@ -31,7 +33,8 @@ namespace UnicomTicManagement.Controller
                         teachers.Add(new Teacher
                         {
                             TeacherId = Convert.ToInt32(reader["TeacherId"]),
-                            Department = reader["Department"].ToString(),
+                            CourseId = reader["CourseId"] is DBNull ? 0 : Convert.ToInt32(reader["CourseId"]),
+                            CourseName = reader["CourseName"].ToString(),
                             Designation = reader["Designation"].ToString(),
                             UserId = Convert.ToInt32(reader["UserId"]),
                             Name = reader["Name"].ToString(),
@@ -47,15 +50,12 @@ namespace UnicomTicManagement.Controller
             return teachers;
         }
 
-
-
         public string UpdateTeacher(Teacher teacher)
         {
             try
             {
                 using (var conn = DbCon.GetConnection())
                 {
-                   
                     string updateUserQuery = @"
                     UPDATE Users
                     SET Name = @Name, Username = @Username, Password = @Password, Email = @Email
@@ -71,15 +71,14 @@ namespace UnicomTicManagement.Controller
                         cmd.ExecuteNonQuery();
                     }
 
-                    
                     string updateTeacherQuery = @"
                     UPDATE Teachers
-                    SET Department = @Department, Designation = @Designation
+                    SET CourseId = @CourseId, Designation = @Designation
                     WHERE TeacherId = @TeacherId";
 
                     using (var cmd = new SQLiteCommand(updateTeacherQuery, conn))
                     {
-                        cmd.Parameters.AddWithValue("@Department", teacher.Department);
+                        cmd.Parameters.AddWithValue("@CourseId", teacher.CourseId);
                         cmd.Parameters.AddWithValue("@Designation", teacher.Designation);
                         cmd.Parameters.AddWithValue("@TeacherId", teacher.TeacherId);
                         cmd.ExecuteNonQuery();
@@ -94,14 +93,12 @@ namespace UnicomTicManagement.Controller
             }
         }
 
-
         public string DeleteTeacher(int teacherId, int userId)
         {
             try
             {
                 using (var conn = DbCon.GetConnection())
                 {
-                   
                     string deleteTeacherQuery = "DELETE FROM Teachers WHERE TeacherId = @TeacherId";
                     using (var cmd = new SQLiteCommand(deleteTeacherQuery, conn))
                     {
@@ -109,7 +106,6 @@ namespace UnicomTicManagement.Controller
                         cmd.ExecuteNonQuery();
                     }
 
-                    
                     string deleteUserQuery = "DELETE FROM Users WHERE UserId = @UserId";
                     using (var cmd = new SQLiteCommand(deleteUserQuery, conn))
                     {
@@ -125,7 +121,6 @@ namespace UnicomTicManagement.Controller
                 return "Error deleting teacher: " + ex.Message;
             }
         }
-
-
     }
 }
+

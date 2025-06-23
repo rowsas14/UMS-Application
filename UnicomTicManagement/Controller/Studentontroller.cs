@@ -9,18 +9,20 @@ using UnicomTicManagement.Model;
 
 namespace UnicomTicManagement.Controller
 {
-    public class Studentontroller
+    public class StudentController
     {
         public List<Student> GetAllStudents()
         {
-            List<Student> students = new List<Student>();
+            var students = new List<Student>();
 
             using (var conn = DbCon.GetConnection())
             {
                 string query = @"
-                SELECT s.StudentId, s.StudentNumber, s.Department,
-                       u.UserId, u.Name, u.Username, u.Password, u.Email, u.Role
+                SELECT s.StudentId, s.StudentNumber, s.CourseId,
+                 c.CourseName,
+                 u.UserId, u.Name, u.Username, u.Password, u.Email, u.Role
                 FROM Students s
+                LEFT JOIN Courses c ON s.CourseId = c.CourseId
                 INNER JOIN Users u ON s.UserId = u.UserId";
 
                 using (var cmd = new SQLiteCommand(query, conn))
@@ -32,7 +34,8 @@ namespace UnicomTicManagement.Controller
                         {
                             StudentId = Convert.ToInt32(reader["StudentId"]),
                             StudentNumber = reader["StudentNumber"].ToString(),
-                            Department = reader["Department"].ToString(),
+                            CourseId = reader["CourseId"] != DBNull.Value ? Convert.ToInt32(reader["CourseId"]) : 0,
+                            CourseName = reader["CourseName"].ToString(),
                             UserId = Convert.ToInt32(reader["UserId"]),
                             Name = reader["Name"].ToString(),
                             Username = reader["Username"].ToString(),
@@ -47,22 +50,21 @@ namespace UnicomTicManagement.Controller
             return students;
         }
 
-
         public string DeleteStudent(int studentId, int userId)
         {
             try
             {
                 using (var conn = DbCon.GetConnection())
                 {
-                   
-                    string deleteQuery = "DELETE FROM Students WHERE StudentId = @StudentId";
-                    using (var cmd1 = new SQLiteCommand(deleteQuery, conn))
+                    // Delete student record
+                    string deleteStudentQuery = "DELETE FROM Students WHERE StudentId = @StudentId";
+                    using (var cmd1 = new SQLiteCommand(deleteStudentQuery, conn))
                     {
                         cmd1.Parameters.AddWithValue("@StudentId", studentId);
                         cmd1.ExecuteNonQuery();
                     }
 
-                   
+                    // Delete corresponding user record
                     string deleteUserQuery = "DELETE FROM Users WHERE UserId = @UserId";
                     using (var cmd2 = new SQLiteCommand(deleteUserQuery, conn))
                     {
@@ -77,9 +79,7 @@ namespace UnicomTicManagement.Controller
             {
                 return "Error deleting student: " + ex.Message;
             }
-
         }
-
 
         public string UpdateStudent(Student student)
         {
@@ -87,9 +87,12 @@ namespace UnicomTicManagement.Controller
             {
                 using (var conn = DbCon.GetConnection())
                 {
+                    // Update Users table
+                    string updateUserQuery = @"
+                    UPDATE Users 
+                    SET Name = @Name, Username = @Username, Password = @Password, Email = @Email 
+                    WHERE UserId = @UserId";
 
-                    string updateUserQuery = @"UPDATE Users SET Name=@Name,Username =@UsereName,Password =@Password,WHERE UserId=@UserId";
-                    
                     using (var cmd = new SQLiteCommand(updateUserQuery, conn))
                     {
                         cmd.Parameters.AddWithValue("@Name", student.Name);
@@ -97,28 +100,25 @@ namespace UnicomTicManagement.Controller
                         cmd.Parameters.AddWithValue("@Password", student.Password);
                         cmd.Parameters.AddWithValue("@Email", student.Email);
                         cmd.Parameters.AddWithValue("@UserId", student.UserId);
-
                         cmd.ExecuteNonQuery();
                     }
 
+                    // Update Students table
                     string updateStudentQuery = @"
                     UPDATE Students
-                    SET StudentNumber = @StudentNumber, Department = @Department
+                    SET StudentNumber = @StudentNumber, CourseId = @CourseId
                     WHERE StudentId = @StudentId";
 
                     using (var cmd = new SQLiteCommand(updateStudentQuery, conn))
                     {
                         cmd.Parameters.AddWithValue("@StudentNumber", student.StudentNumber);
-                        cmd.Parameters.AddWithValue("@Department", student.Department);
+                        cmd.Parameters.AddWithValue("@CourseId", student.CourseId);
                         cmd.Parameters.AddWithValue("@StudentId", student.StudentId);
                         cmd.ExecuteNonQuery();
                     }
 
                     return "Student updated successfully.";
                 }
-
-
-                
             }
             catch (Exception ex)
             {
@@ -126,5 +126,44 @@ namespace UnicomTicManagement.Controller
             }
         }
 
+
+        // Student course subject view
+        public List<StCoSub> GetStCoSub()
+        {
+            var list = new List<StCoSub>();
+
+            using (var conn = DbCon.GetConnection())
+            {
+                string query = @"
+                   SELECT u.Name AS StudentName, 
+                    c.CourseName, 
+                        s.SubjectName
+                     FROM Students st
+                      INNER JOIN Users u ON st.UserId = u.UserId
+                    INNER JOIN Courses c ON st.CourseId = c.CourseId
+                    INNER JOIN Subjects s ON s.CourseId = c.CourseId
+                   ORDER BY u.Name";
+
+                using (var cmd = new SQLiteCommand(query, conn))
+                using (var reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        list.Add(new StCoSub
+                        {
+                            StudentName = reader["StudentName"].ToString(),
+                            CourseName = reader["CourseName"].ToString(),
+                            SubjectName = reader["SubjectName"].ToString()
+                        });
+                    }
+                }
+            }
+
+            return list;
+        }
+
+
+
     }
+
 }

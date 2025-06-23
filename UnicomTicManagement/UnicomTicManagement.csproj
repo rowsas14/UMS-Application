@@ -52,9 +52,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\AdminController.cs" />
+    <Compile Include="Controller\CourseController.cs" />
+    <Compile Include="Controller\ExamControllers.cs" />
+    <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\StaffController.cs" />
     <Compile Include="Controller\Studentontroller.cs" />
+    <Compile Include="Controller\SubjectController.cs" />
     <Compile Include="Controller\TeacherControllercs.cs" />
+    <Compile Include="Controller\TimtableController.cs" />
     <Compile Include="Controller\UserController.cs" />
     <Compile Include="Database\DatabaseInitializer.cs" />
     <Compile Include="Database\DbCon.cs" />
@@ -65,9 +70,14 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Admin.cs" />
+    <Compile Include="Model\Course.cs" />
+    <Compile Include="Model\Exam.cs" />
     <Compile Include="Model\Staff.cs" />
+    <Compile Include="Model\StCoSub.cs" />
     <Compile Include="Model\Student.cs" />
+    <Compile Include="Model\Subject.cs" />
     <Compile Include="Model\Teacher.cs" />
+    <Compile Include="Model\Timtable.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,23 +87,29 @@
     <Compile Include="View\AdminDashboard.Designer.cs">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\CourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CourseForm.Designer.cs">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\StudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\StudentForm.Designer.cs">
       <DependentUpon>StudentForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\StViewForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\StViewForm.Designer.cs">
-      <DependentUpon>StViewForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -107,14 +123,17 @@
     <EmbeddedResource Include="View\AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\CourseForm.resx">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\StViewForm.resx">
-      <DependentUpon>StViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
