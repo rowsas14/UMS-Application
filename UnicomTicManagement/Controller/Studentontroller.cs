@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using UnicomTicManagement.Database;
 using UnicomTicManagement.Model;
 
+
 namespace UnicomTicManagement.Controller
 {
     public class StudentController
@@ -19,11 +20,11 @@ namespace UnicomTicManagement.Controller
             {
                 string query = @"
                 SELECT s.StudentId, s.StudentNumber, s.CourseId,
-                 c.CourseName,
-                 u.UserId, u.Name, u.Username, u.Password, u.Email, u.Role
+                       c.CourseName,
+                       u.UserId, u.Name, u.Username, u.Password, u.Email, u.Role
                 FROM Students s
-                LEFT JOIN Courses c ON s.CourseId = c.CourseId
-                INNER JOIN Users u ON s.UserId = u.UserId";
+                INNER JOIN Users u ON s.UserId = u.UserId
+                LEFT JOIN Courses c ON s.CourseId = c.CourseId";
 
                 using (var cmd = new SQLiteCommand(query, conn))
                 using (var reader = cmd.ExecuteReader())
@@ -35,7 +36,7 @@ namespace UnicomTicManagement.Controller
                             StudentId = Convert.ToInt32(reader["StudentId"]),
                             StudentNumber = reader["StudentNumber"].ToString(),
                             CourseId = reader["CourseId"] != DBNull.Value ? Convert.ToInt32(reader["CourseId"]) : 0,
-                            CourseName = reader["CourseName"].ToString(),
+                            CourseName = reader["CourseName"] != DBNull.Value ? reader["CourseName"].ToString() : "",
                             UserId = Convert.ToInt32(reader["UserId"]),
                             Name = reader["Name"].ToString(),
                             Username = reader["Username"].ToString(),
@@ -50,13 +51,75 @@ namespace UnicomTicManagement.Controller
             return students;
         }
 
+        public string AddStudent(Student student)
+        {
+            try
+            {
+                using (var conn = DbCon.GetConnection())
+                using (var transaction = conn.BeginTransaction())
+                {
+                    // Insert into Users
+                    string insertUserQuery = @"
+                    INSERT INTO Users (Name, Username, Password, Email, Role)
+                    VALUES (@Name, @Username, @Password, @Email, @Role);
+                    SELECT last_insert_rowid();";
+
+                    long userId;
+                    using (var cmd = new SQLiteCommand(insertUserQuery, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Name", student.Name);
+                        cmd.Parameters.AddWithValue("@Username", student.Username);
+                        cmd.Parameters.AddWithValue("@Password", student.Password);
+                        cmd.Parameters.AddWithValue("@Email", student.Email);
+                        cmd.Parameters.AddWithValue("@Role", student.Role);
+
+                        userId = (long)cmd.ExecuteScalar();
+                    }
+
+                    // Insert into Students
+                    string insertStudentQuery = @"
+                    INSERT INTO Students (UserId, StudentNumber, CourseId)
+                    VALUES (@UserId, @StudentNumber, @CourseId);";
+
+                    using (var cmd = new SQLiteCommand(insertStudentQuery, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserId", userId);
+                        cmd.Parameters.AddWithValue("@StudentNumber", student.StudentNumber);
+                        cmd.Parameters.AddWithValue("@CourseId", student.CourseId);
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    transaction.Commit();
+                }
+
+                return "Student added successfully.";
+            }
+            catch (SQLiteException ex) when (ex.ResultCode == SQLiteErrorCode.Constraint)
+            {
+                // Handle UNIQUE constraint violation (username or student number duplicate)
+                if (ex.Message.Contains("Users.Username"))
+                    return "Error: Username already exists.";
+                else if (ex.Message.Contains("Students.StudentNumber"))
+                    return "Error: Student number already exists.";
+                else
+                    return "Database constraint error: " + ex.Message;
+            }
+            catch (Exception ex)
+            {
+                return "Error adding student: " + ex.Message;
+            }
+
+        }
+
+
+
         public string DeleteStudent(int studentId, int userId)
         {
             try
             {
                 using (var conn = DbCon.GetConnection())
+                using (var transaction = conn.BeginTransaction())
                 {
-                    // Delete student record
                     string deleteStudentQuery = "DELETE FROM Students WHERE StudentId = @StudentId";
                     using (var cmd1 = new SQLiteCommand(deleteStudentQuery, conn))
                     {
@@ -64,13 +127,14 @@ namespace UnicomTicManagement.Controller
                         cmd1.ExecuteNonQuery();
                     }
 
-                    // Delete corresponding user record
                     string deleteUserQuery = "DELETE FROM Users WHERE UserId = @UserId";
                     using (var cmd2 = new SQLiteCommand(deleteUserQuery, conn))
                     {
                         cmd2.Parameters.AddWithValue("@UserId", userId);
                         cmd2.ExecuteNonQuery();
                     }
+
+                    transaction.Commit();
                 }
 
                 return "Student deleted successfully.";
@@ -86,11 +150,11 @@ namespace UnicomTicManagement.Controller
             try
             {
                 using (var conn = DbCon.GetConnection())
+                using (var transaction = conn.BeginTransaction())
                 {
-                    // Update Users table
                     string updateUserQuery = @"
-                    UPDATE Users 
-                    SET Name = @Name, Username = @Username, Password = @Password, Email = @Email 
+                    UPDATE Users
+                    SET Name = @Name, Username = @Username, Password = @Password, Email = @Email
                     WHERE UserId = @UserId";
 
                     using (var cmd = new SQLiteCommand(updateUserQuery, conn))
@@ -103,7 +167,6 @@ namespace UnicomTicManagement.Controller
                         cmd.ExecuteNonQuery();
                     }
 
-                    // Update Students table
                     string updateStudentQuery = @"
                     UPDATE Students
                     SET StudentNumber = @StudentNumber, CourseId = @CourseId
@@ -117,6 +180,7 @@ namespace UnicomTicManagement.Controller
                         cmd.ExecuteNonQuery();
                     }
 
+                    transaction.Commit();
                     return "Student updated successfully.";
                 }
             }
@@ -126,8 +190,6 @@ namespace UnicomTicManagement.Controller
             }
         }
 
-
-        // Student course subject view
         public List<StCoSub> GetStCoSub()
         {
             var list = new List<StCoSub>();

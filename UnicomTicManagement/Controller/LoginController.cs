@@ -33,7 +33,7 @@ namespace UnicomTicManagement.Controller
                             {
                                 string storedPassword = reader["Password"].ToString();
 
-                                // Simple password check, consider hashing for production
+                                
                                 if (storedPassword == password)
                                 {
                                     string role = reader["Role"].ToString();

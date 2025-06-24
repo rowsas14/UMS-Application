@@ -18,12 +18,12 @@ namespace UnicomTicManagement.Controller
             using (var conn = DbCon.GetConnection())
             {
                 string query = @"
-                SELECT t.TeacherId, t.CourseId, t.Designation,
-                       c.CourseName,
-                       u.UserId, u.Name, u.Username, u.Password, u.Email, u.Role
-                FROM Teachers t
-                LEFT JOIN Courses c ON t.CourseId = c.CourseId
-                INNER JOIN Users u ON t.UserId = u.UserId";
+            SELECT t.TeacherId, t.CourseId, t.Designation,
+                   c.CourseName,
+                   u.UserId, u.Name, u.Username, u.Password, u.Email, u.Role
+            FROM Teachers t
+            INNER JOIN Users u ON t.UserId = u.UserId
+            LEFT JOIN Courses c ON t.CourseId = c.CourseId";
 
                 using (var cmd = new SQLiteCommand(query, conn))
                 using (var reader = cmd.ExecuteReader())
@@ -33,9 +33,9 @@ namespace UnicomTicManagement.Controller
                         teachers.Add(new Teacher
                         {
                             TeacherId = Convert.ToInt32(reader["TeacherId"]),
-                            CourseId = reader["CourseId"] is DBNull ? 0 : Convert.ToInt32(reader["CourseId"]),
-                            CourseName = reader["CourseName"].ToString(),
-                            Designation = reader["Designation"].ToString(),
+                            CourseId = reader["CourseId"] != DBNull.Value ? Convert.ToInt32(reader["CourseId"]) : 0,
+                            CourseName = reader["CourseName"]?.ToString() ?? "",
+                            Designation = reader["Designation"]?.ToString() ?? "",
                             UserId = Convert.ToInt32(reader["UserId"]),
                             Name = reader["Name"].ToString(),
                             Username = reader["Username"].ToString(),
@@ -50,12 +50,61 @@ namespace UnicomTicManagement.Controller
             return teachers;
         }
 
+        public string AddTeacher(Teacher teacher)
+        {
+            try
+            {
+                using (var conn = DbCon.GetConnection())
+                using (var transaction = conn.BeginTransaction())
+                {
+                    string insertUserQuery = @"
+                INSERT INTO Users (Name, Username, Password, Email, Role)
+                VALUES (@Name, @Username, @Password, @Email, @Role);
+                SELECT last_insert_rowid();";
+
+                    long userId;
+                    using (var cmd = new SQLiteCommand(insertUserQuery, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Name", teacher.Name);
+                        cmd.Parameters.AddWithValue("@Username", teacher.Username);
+                        cmd.Parameters.AddWithValue("@Password", teacher.Password);
+                        cmd.Parameters.AddWithValue("@Email", teacher.Email);
+                        cmd.Parameters.AddWithValue("@Role", "Teacher");
+
+                        userId = (long)cmd.ExecuteScalar();
+                    }
+
+                    string insertTeacherQuery = @"
+                INSERT INTO Teachers (UserId, CourseId, Designation)
+                VALUES (@UserId, @CourseId, @Designation);";
+
+                    using (var cmd = new SQLiteCommand(insertTeacherQuery, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserId", userId);
+                        cmd.Parameters.AddWithValue("@CourseId", teacher.CourseId);
+                        cmd.Parameters.AddWithValue("@Designation", teacher.Designation);
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    transaction.Commit();
+                    return "Teacher added successfully.";
+                }
+            }
+
+            catch (Exception ex)
+            {
+                return "Error adding teacher: " + ex.Message;
+            }
+        }
+
         public string UpdateTeacher(Teacher teacher)
         {
             try
             {
                 using (var conn = DbCon.GetConnection())
+                using (var transaction = conn.BeginTransaction())
                 {
+                    
                     string updateUserQuery = @"
                     UPDATE Users
                     SET Name = @Name, Username = @Username, Password = @Password, Email = @Email
@@ -71,6 +120,7 @@ namespace UnicomTicManagement.Controller
                         cmd.ExecuteNonQuery();
                     }
 
+                 
                     string updateTeacherQuery = @"
                     UPDATE Teachers
                     SET CourseId = @CourseId, Designation = @Designation
@@ -84,6 +134,7 @@ namespace UnicomTicManagement.Controller
                         cmd.ExecuteNonQuery();
                     }
 
+                    transaction.Commit();
                     return "Teacher updated successfully.";
                 }
             }
@@ -98,7 +149,9 @@ namespace UnicomTicManagement.Controller
             try
             {
                 using (var conn = DbCon.GetConnection())
+                using (var transaction = conn.BeginTransaction())
                 {
+                  
                     string deleteTeacherQuery = "DELETE FROM Teachers WHERE TeacherId = @TeacherId";
                     using (var cmd = new SQLiteCommand(deleteTeacherQuery, conn))
                     {
@@ -106,6 +159,7 @@ namespace UnicomTicManagement.Controller
                         cmd.ExecuteNonQuery();
                     }
 
+                  
                     string deleteUserQuery = "DELETE FROM Users WHERE UserId = @UserId";
                     using (var cmd = new SQLiteCommand(deleteUserQuery, conn))
                     {
@@ -113,6 +167,7 @@ namespace UnicomTicManagement.Controller
                         cmd.ExecuteNonQuery();
                     }
 
+                    transaction.Commit();
                     return "Teacher deleted successfully.";
                 }
             }

@@ -213,5 +213,11 @@ namespace UnicomTicManagement.View
             selectedUserId = -1;
         }
         }
+
+        private void label5_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit(); 
+
+        }
     }
 }

@@ -17,11 +17,11 @@ namespace UnicomTicManagement.Controller
             {
                 using (var conn = DbCon.GetConnection())
                 {
-                    string insertSql = @"
+                    string insertQuery = @"
                 INSERT INTO Exams (StudentId, SubjectId, ExamName, ExamType, Marks, ExamDate)
                 VALUES (@StudentId, @SubjectId, @ExamName, @ExamType, @Marks, @ExamDate)";
 
-                    using (var cmd = new SQLiteCommand(insertSql, conn))
+                    using (var cmd = new SQLiteCommand(insertQuery, conn))
                     {
                         cmd.Parameters.AddWithValue("@StudentId", exam.StudentId);
                         cmd.Parameters.AddWithValue("@SubjectId", exam.SubjectId);

@@ -46,6 +46,48 @@ namespace UnicomTicManagement.Controller
             return adminList;
         }
 
+        public string AddAdmin(Admin admin)
+        {
+            try
+            {
+                using (var conn = DbCon.GetConnection())
+                using (var transaction = conn.BeginTransaction())
+                {
+                    string userQuery = @"
+                INSERT INTO Users (Name, Username, Password, Email, Role)
+                VALUES (@Name, @Username, @Password, @Email, @Role);
+                SELECT last_insert_rowid();";
+
+                    int userId;
+                    using (var cmd = new SQLiteCommand(userQuery, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Name", admin.Name);
+                        cmd.Parameters.AddWithValue("@Username", admin.Username);
+                        cmd.Parameters.AddWithValue("@Password", admin.Password);
+                        cmd.Parameters.AddWithValue("@Email", admin.Email);
+                        cmd.Parameters.AddWithValue("@Role", "Admin");
+
+                        userId = Convert.ToInt32(cmd.ExecuteScalar());
+                    }
+
+                    string insertAdminSql = "INSERT INTO Admin (UserId, Designation) VALUES (@UserId, @Designation)";
+                    using (var cmd = new SQLiteCommand(insertAdminSql, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserId", userId);
+                        cmd.Parameters.AddWithValue("@Designation", admin.Designation);
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    transaction.Commit();
+                    return "Admin added successfully.";
+                }
+            }
+            catch (Exception ex)
+            {
+                return "Error adding admin: " + ex.Message;
+            }
+        }
+
 
         public string UpdateAdmin(Admin admin)
         {
@@ -54,12 +96,12 @@ namespace UnicomTicManagement.Controller
                 using (var conn = DbCon.GetConnection())
                 {
                     
-                    string updateUserSql = @"
+                    string updateUserQuery = @"
                     UPDATE Users
                     SET Name = @Name, Username = @Username, Password = @Password, Email = @Email
                     WHERE UserId = @UserId";
 
-                    using (var cmd = new SQLiteCommand(updateUserSql, conn))
+                    using (var cmd = new SQLiteCommand(updateUserQuery, conn))
                     {
                         cmd.Parameters.AddWithValue("@Name", admin.Name);
                         cmd.Parameters.AddWithValue("@Username", admin.Username);
@@ -69,12 +111,12 @@ namespace UnicomTicManagement.Controller
                         cmd.ExecuteNonQuery();
                     }
 
-                    string updateAdminSql = @"
+                    string updateAdminQuery = @"
                     UPDATE Admin
                     SET Designation = @Designation
                     WHERE AdminId = @AdminId";
 
-                    using (var cmd = new SQLiteCommand(updateAdminSql, conn))
+                    using (var cmd = new SQLiteCommand(updateAdminQuery, conn))
                     {
                         cmd.Parameters.AddWithValue("@Designation", admin.Designation);
                         cmd.Parameters.AddWithValue("@AdminId", admin.AdminId);

@@ -87,6 +87,12 @@
     <Compile Include="View\AdminDashboard.Designer.cs">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\CourseForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,11 +111,17 @@
     <Compile Include="View\RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\StudentForm.cs">
+    <Compile Include="View\StaffForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\StudentForm.Designer.cs">
-      <DependentUpon>StudentForm.cs</DependentUpon>
+    <Compile Include="View\StaffForm.Designer.cs">
+      <DependentUpon>StaffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\TeacherFormnew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\TeacherFormnew.Designer.cs">
+      <DependentUpon>TeacherFormnew.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -123,6 +135,9 @@
     <EmbeddedResource Include="View\AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\CourseForm.resx">
       <DependentUpon>CourseForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,8 +147,11 @@
     <EmbeddedResource Include="View\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\StudentForm.resx">
-      <DependentUpon>StudentForm.cs</DependentUpon>
+    <EmbeddedResource Include="View\StaffForm.resx">
+      <DependentUpon>StaffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\TeacherFormnew.resx">
+      <DependentUpon>TeacherFormnew.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

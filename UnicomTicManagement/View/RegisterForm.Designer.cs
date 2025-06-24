@@ -49,6 +49,8 @@
             this.txtnumberl = new System.Windows.Forms.TextBox();
             this.course = new System.Windows.Forms.Label();
             this.cmbCourse = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudents)).BeginInit();
@@ -56,6 +58,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -269,6 +272,16 @@
             this.cmbCourse.Size = new System.Drawing.Size(280, 24);
             this.cmbCourse.TabIndex = 26;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(829, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(13, 16);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "x";
+            this.label5.Click += new System.EventHandler(this.label5_Click_1);
+            // 
             // RegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -295,6 +308,8 @@
             this.Name = "RegisterForm";
             this.Text = "RegisterForm";
             this.Load += new System.EventHandler(this.RegisterForm_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudents)).EndInit();
@@ -326,5 +341,6 @@
         private System.Windows.Forms.TextBox txtnumberl;
         private System.Windows.Forms.Label course;
         private System.Windows.Forms.ComboBox cmbCourse;
+        private System.Windows.Forms.Label label5;
     }
 }

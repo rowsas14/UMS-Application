@@ -46,7 +46,53 @@ namespace UnicomTicManagement.Controller
             return staffList;
         }
 
-      
+
+        public string AddStaff(Staff staff)
+        {
+            try
+            {
+                using (var conn = DbCon.GetConnection())
+                using (var transaction = conn.BeginTransaction())
+                {
+                    string userQuery = @"
+                INSERT INTO Users (Name, Username, Password, Email, Role)
+                VALUES (@Name, @Username, @Password, @Email, @Role);
+                SELECT last_insert_rowid();";
+
+                    int userId;
+                    using (var cmd = new SQLiteCommand(userQuery, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Name", staff.Name);
+                        cmd.Parameters.AddWithValue("@Username", staff.Username);
+                        cmd.Parameters.AddWithValue("@Password", staff.Password);
+                        cmd.Parameters.AddWithValue("@Email", staff.Email);
+                        cmd.Parameters.AddWithValue("@Role", "Staff");
+
+                        userId = Convert.ToInt32(cmd.ExecuteScalar()); 
+                    }
+
+                    string staffQurey = @"
+                INSERT INTO Staffs (UserId, Designation)
+                VALUES (@UserId, @Designation);";
+
+                    using (var cmd = new SQLiteCommand(staffQurey, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserId", userId);
+                        cmd.Parameters.AddWithValue("@Designation", staff.Designation);
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    transaction.Commit();
+                    return "Staff added successfully.";
+                }
+            }
+            catch (Exception ex)
+            {
+                return "Error adding staff: " + ex.Message;
+            }
+        }
+
+
         public string UpdateStaff(Staff staff)
         {
             try
@@ -54,12 +100,12 @@ namespace UnicomTicManagement.Controller
                 using (var conn = DbCon.GetConnection())
                 {
                  
-                    string updateUserSql = @"
+                    string updateUserQuery = @"
                     UPDATE Users
                     SET Name = @Name, Username = @Username, Password = @Password, Email = @Email
                     WHERE UserId = @UserId";
 
-                    using (var cmd = new SQLiteCommand(updateUserSql, conn))
+                    using (var cmd = new SQLiteCommand(updateUserQuery, conn))
                     {
                         cmd.Parameters.AddWithValue("@Name", staff.Name);
                         cmd.Parameters.AddWithValue("@Username", staff.Username);
@@ -70,12 +116,12 @@ namespace UnicomTicManagement.Controller
                     }
 
                    
-                    string updateStaffSql = @"
+                    string updateStaffQuery = @"
                     UPDATE Staffs
                     SET Designation = @Designation
                     WHERE StaffId = @StaffId";
 
-                    using (var cmd = new SQLiteCommand(updateStaffSql, conn))
+                    using (var cmd = new SQLiteCommand(updateStaffQuery, conn))
                     {
                         cmd.Parameters.AddWithValue("@Designation", staff.Designation);
                         cmd.Parameters.AddWithValue("@StaffId", staff.StaffId);

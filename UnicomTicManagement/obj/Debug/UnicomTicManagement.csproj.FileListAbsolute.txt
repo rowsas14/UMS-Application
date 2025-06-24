@@ -13,6 +13,8 @@ C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\bin\Debu
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTi.97F2F5D4.Up2Date
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.LoginForm.resources
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.AdminDashboard.resources
-C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.StudentForm.resources
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.CourseForm.resources
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.RegisterForm.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.AdminForm.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.StaffForm.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.TeacherFormnew.resources
