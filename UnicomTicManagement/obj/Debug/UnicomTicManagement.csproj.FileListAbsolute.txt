@@ -18,3 +18,7 @@ C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debu
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.AdminForm.resources
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.StaffForm.resources
 C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.TeacherFormnew.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.StudentForm.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.StudentDashboard.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.SujectForm.resources
+C:\Users\Mohamed Rowsas\Desktop\Unicomtic\UnicomTic\UnicomTicManagement\obj\Debug\UnicomTicManagement.View.Examform.resources

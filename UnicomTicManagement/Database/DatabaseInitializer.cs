@@ -94,7 +94,7 @@ namespace UnicomTicManagement.Database
 
 
 
-                MessageBox.Show("Database initialized successfully.", "Info");
+                //MessageBox.Show("Database initialized successfully.", "Info");
             }
         }
     }

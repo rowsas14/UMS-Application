@@ -16,7 +16,7 @@ namespace UnicomTicManagement.Database
         {
             SQLiteConnection conn = new SQLiteConnection(connectionString);
             conn.Open();
-            MessageBox.Show("Done ok");
+            //MessageBox.Show("Done ok");
             return conn;
         }
 

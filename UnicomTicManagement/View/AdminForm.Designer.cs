@@ -37,8 +37,6 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtEmai = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.tRole = new System.Windows.Forms.Label();
-            this.txtRole = new System.Windows.Forms.TextBox();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -72,7 +70,7 @@
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(86, 73);
+            this.txtName.Location = new System.Drawing.Point(117, 73);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(276, 28);
             this.txtName.TabIndex = 2;
@@ -94,7 +92,7 @@
             // 
             this.txtPasswor.AutoSize = true;
             this.txtPasswor.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPasswor.Location = new System.Drawing.Point(441, 72);
+            this.txtPasswor.Location = new System.Drawing.Point(423, 141);
             this.txtPasswor.Name = "txtPasswor";
             this.txtPasswor.Size = new System.Drawing.Size(81, 21);
             this.txtPasswor.TabIndex = 4;
@@ -104,7 +102,7 @@
             // 
             this.txtUsernam.AutoSize = true;
             this.txtUsernam.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsernam.Location = new System.Drawing.Point(12, 142);
+            this.txtUsernam.Location = new System.Drawing.Point(423, 73);
             this.txtUsernam.Name = "txtUsernam";
             this.txtUsernam.Size = new System.Drawing.Size(87, 21);
             this.txtUsernam.TabIndex = 5;
@@ -114,7 +112,7 @@
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(528, 69);
+            this.txtPassword.Location = new System.Drawing.Point(539, 138);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(276, 28);
             this.txtPassword.TabIndex = 6;
@@ -124,7 +122,7 @@
             // 
             this.txtEmai.AutoSize = true;
             this.txtEmai.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmai.Location = new System.Drawing.Point(483, 139);
+            this.txtEmai.Location = new System.Drawing.Point(14, 138);
             this.txtEmai.Name = "txtEmai";
             this.txtEmai.Size = new System.Drawing.Size(51, 21);
             this.txtEmai.TabIndex = 8;
@@ -133,30 +131,11 @@
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(563, 135);
+            this.txtEmail.Location = new System.Drawing.Point(107, 138);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(276, 28);
             this.txtEmail.TabIndex = 9;
             this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
-            // 
-            // tRole
-            // 
-            this.tRole.AutoSize = true;
-            this.tRole.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tRole.Location = new System.Drawing.Point(12, 204);
-            this.tRole.Name = "tRole";
-            this.tRole.Size = new System.Drawing.Size(43, 21);
-            this.tRole.TabIndex = 10;
-            this.tRole.Text = "Role";
-            // 
-            // txtRole
-            // 
-            this.txtRole.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRole.Location = new System.Drawing.Point(102, 201);
-            this.txtRole.Name = "txtRole";
-            this.txtRole.Size = new System.Drawing.Size(276, 28);
-            this.txtRole.TabIndex = 11;
-            this.txtRole.TextChanged += new System.EventHandler(this.txtRole_TextChanged);
             // 
             // btnUpdate
             // 
@@ -192,7 +171,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(409, 204);
+            this.label2.Location = new System.Drawing.Point(5, 208);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 21);
             this.label2.TabIndex = 17;
@@ -201,14 +180,14 @@
             // txtDesignation
             // 
             this.txtDesignation.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDesignation.Location = new System.Drawing.Point(528, 201);
+            this.txtDesignation.Location = new System.Drawing.Point(117, 201);
             this.txtDesignation.Name = "txtDesignation";
             this.txtDesignation.Size = new System.Drawing.Size(276, 28);
             this.txtDesignation.TabIndex = 18;
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(117, 135);
+            this.txtUsername.Location = new System.Drawing.Point(539, 64);
             this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(242, 37);
@@ -225,8 +204,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.txtRole);
-            this.Controls.Add(this.tRole);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtEmai);
             this.Controls.Add(this.txtPassword);
@@ -257,8 +234,6 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label txtEmai;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.Label tRole;
-        private System.Windows.Forms.TextBox txtRole;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label label1;

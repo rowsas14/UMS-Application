@@ -3,136 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\view\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\controller\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\controller\\examcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\examcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\controller\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\controller\\studentontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\studentontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\controller\\teachercontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\teachercontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\view\\teacherformnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\teacherformnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\view\\teacherformnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\teacherformnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\view\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\view\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\staffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\view\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\view\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\model\\timtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\model\\timtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\model\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\model\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\model\\stcosub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\model\\stcosub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\model\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\model\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|c:\\users\\mohamed rowsas\\desktop\\unicomtic\\unicomtic\\unicomticmanagement\\view\\adminform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\adminform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\database\\dbcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\database\\dbcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\controller\\studentontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\studentontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\controller\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\sujectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\sujectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\controller\\examcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\controller\\examcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\model\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\model\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\studentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\unicomticmanagement\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F57458C-10C4-47D6-A9ED-51DC3010C800}|UnicomTicManagement\\UnicomTicManagement.csproj|solutionrelative:unicomticmanagement\\view\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,17 +86,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Program.cs",
               "RelativeDocumentMoniker": "UnicomTicManagement\\Program.cs",
               "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Program.cs",
               "RelativeToolTip": "UnicomTicManagement\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T17:31:10.237Z",
               "IsPinned": true,
@@ -160,261 +104,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\AdminController.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\AdminController.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Controller\\AdminController.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T00:12:05.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ExamControllers.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\ExamControllers.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\ExamControllers.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\ExamControllers.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Controller\\ExamControllers.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAgwBcAAABCAAAAAAAAAA==",
+              "Title": "DbCon.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Database\\DbCon.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\Database\\DbCon.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Database\\DbCon.cs",
+              "RelativeToolTip": "UnicomTicManagement\\Database\\DbCon.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T04:44:33.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\LoginController.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\LoginController.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Controller\\LoginController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:03:22.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StaffController.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\StaffController.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\StaffController.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\StaffController.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Controller\\StaffController.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAgwHsAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T02:54:22.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Studentontroller.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\Studentontroller.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\Studentontroller.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\Studentontroller.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Controller\\Studentontroller.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAgwL8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T19:48:57.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "UnicomTicManagement\\View\\RegisterForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T04:21:02.349Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\CourseController.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\CourseController.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\CourseController.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Controller\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T01:20:24.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TeacherControllercs.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\TeacherControllercs.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\TeacherControllercs.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\TeacherControllercs.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Controller\\TeacherControllercs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T23:44:57.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:27:09.22Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\UserController.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\UserController.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\UserController.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Controller\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T19:20:42.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TeacherFormnew.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\TeacherFormnew.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\TeacherFormnew.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\TeacherFormnew.cs [Design]",
-              "RelativeToolTip": "UnicomTicManagement\\View\\TeacherFormnew.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T04:20:29.663Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TeacherFormnew.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\TeacherFormnew.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\TeacherFormnew.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\TeacherFormnew.cs",
-              "RelativeToolTip": "UnicomTicManagement\\View\\TeacherFormnew.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwEcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T04:22:31.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CourseForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\CourseForm.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\CourseForm.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\CourseForm.cs [Design]",
-              "RelativeToolTip": "UnicomTicManagement\\View\\CourseForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T04:20:33.056Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StaffForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\StaffForm.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\StaffForm.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\StaffForm.cs [Design]",
-              "RelativeToolTip": "UnicomTicManagement\\View\\StaffForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T02:52:14.952Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "StaffForm.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\StaffForm.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\StaffForm.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\StaffForm.cs",
-              "RelativeToolTip": "UnicomTicManagement\\View\\StaffForm.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T02:56:09.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "AdminForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminForm.cs",
               "RelativeDocumentMoniker": "UnicomTicManagement\\View\\AdminForm.cs",
               "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminForm.cs [Design]",
               "RelativeToolTip": "UnicomTicManagement\\View\\AdminForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T00:37:22.633Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-24T10:01:23.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AdminForm.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminForm.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\AdminForm.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminForm.cs",
-              "RelativeToolTip": "UnicomTicManagement\\View\\AdminForm.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvxQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T03:10:45.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DatabaseInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Database\\DatabaseInitializer.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Database\\DatabaseInitializer.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Database\\DatabaseInitializer.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Database\\DatabaseInitializer.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAQwAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:15:25.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 7,
               "Title": "AdminDashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminDashboard.cs",
               "RelativeDocumentMoniker": "UnicomTicManagement\\View\\AdminDashboard.cs",
               "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminDashboard.cs [Design]",
               "RelativeToolTip": "UnicomTicManagement\\View\\AdminDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T18:07:45.072Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-24T07:59:09.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Exam.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Exam.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Model\\Exam.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Exam.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Model\\Exam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\LoginForm.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\LoginForm.cs [Design]",
+              "RelativeToolTip": "UnicomTicManagement\\View\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T13:58:45.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T08:31:13.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Timtable.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Timtable.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Model\\Timtable.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Timtable.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Model\\Timtable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Examform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\Examform.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\Examform.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\Examform.cs [Design]",
+              "RelativeToolTip": "UnicomTicManagement\\View\\Examform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T14:52:11.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:14:30.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 1,
+              "Title": "Examform.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\Examform.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\Examform.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\Examform.cs",
+              "RelativeToolTip": "UnicomTicManagement\\View\\Examform.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAArwBIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:17:18.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Database\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\Database\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Database\\DatabaseInitializer.cs",
+              "RelativeToolTip": "UnicomTicManagement\\Database\\DatabaseInitializer.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:15:25.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\User.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\User.cs",
+              "RelativeToolTip": "UnicomTicManagement\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:11:37.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Studentontroller.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\Studentontroller.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\Studentontroller.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\Studentontroller.cs",
+              "RelativeToolTip": "UnicomTicManagement\\Controller\\Studentontroller.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwHgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:14:59.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Student.cs",
               "RelativeDocumentMoniker": "UnicomTicManagement\\Model\\Student.cs",
@@ -422,140 +216,70 @@
               "RelativeToolTip": "UnicomTicManagement\\Model\\Student.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAowA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T11:09:24.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T11:09:24.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "StCoSub.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\StCoSub.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Model\\StCoSub.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\StCoSub.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Model\\StCoSub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T15:27:54.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Course.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Model\\Course.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Course.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Model\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T11:17:25.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Teacher.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Teacher.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Model\\Teacher.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Teacher.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Model\\Teacher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T23:49:04.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\RegisterForm.cs",
-              "RelativeToolTip": "UnicomTicManagement\\View\\RegisterForm.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAiwLEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T18:14:18.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AdminForm.resx",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminForm.resx",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\AdminForm.resx",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminForm.resx",
-              "RelativeToolTip": "UnicomTicManagement\\View\\AdminForm.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-06-24T01:03:03.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\LoginForm.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\LoginForm.cs [Design]",
-              "RelativeToolTip": "UnicomTicManagement\\View\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:13:45.224Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DbCon.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Database\\DbCon.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\Database\\DbCon.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Database\\DbCon.cs",
-              "RelativeToolTip": "UnicomTicManagement\\Database\\DbCon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T09:50:18.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CourseForm.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\CourseForm.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\CourseForm.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\CourseForm.cs",
-              "RelativeToolTip": "UnicomTicManagement\\View\\CourseForm.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T21:27:09.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 11,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\LoginForm.cs",
               "RelativeDocumentMoniker": "UnicomTicManagement\\View\\LoginForm.cs",
               "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\LoginForm.cs",
               "RelativeToolTip": "UnicomTicManagement\\View\\LoginForm.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwDAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:13:47.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T08:31:15.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AdminDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\AdminDashboard.cs",
-              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminDashboard.cs",
-              "RelativeToolTip": "UnicomTicManagement\\View\\AdminDashboard.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA3wCQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "SujectForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\SujectForm.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\SujectForm.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\SujectForm.cs [Design]",
+              "RelativeToolTip": "UnicomTicManagement\\View\\SujectForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T11:27:38.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T08:56:29.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 15,
+              "Title": "ExamControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\ExamControllers.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\ExamControllers.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\ExamControllers.cs",
+              "RelativeToolTip": "UnicomTicManagement\\Controller\\ExamControllers.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:16:41.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Exam.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\Model\\Exam.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Exam.cs",
+              "RelativeToolTip": "UnicomTicManagement\\Model\\Exam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:20:55.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\SubjectController.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\Controller\\SubjectController.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Controller\\SubjectController.cs",
+              "RelativeToolTip": "UnicomTicManagement\\Controller\\SubjectController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwD0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T08:55:10.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\Model\\Admin.cs",
               "RelativeDocumentMoniker": "UnicomTicManagement\\Model\\Admin.cs",
@@ -564,6 +288,29 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T11:12:14.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\AdminDashboard.cs",
+              "RelativeToolTip": "UnicomTicManagement\\View\\AdminDashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T08:05:42.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\StudentDashboard.cs",
+              "RelativeDocumentMoniker": "UnicomTicManagement\\View\\StudentDashboard.cs",
+              "ToolTip": "C:\\Users\\Mohamed Rowsas\\Desktop\\Unicomtic\\UnicomTic\\UnicomTicManagement\\View\\StudentDashboard.cs [Design]",
+              "RelativeToolTip": "UnicomTicManagement\\View\\StudentDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T08:36:35.256Z"
             }
           ]
         }

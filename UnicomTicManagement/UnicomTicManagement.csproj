@@ -99,6 +99,12 @@
     <Compile Include="View\CourseForm.Designer.cs">
       <DependentUpon>CourseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Examform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Examform.Designer.cs">
+      <DependentUpon>Examform.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,24 @@
     </Compile>
     <Compile Include="View\StaffForm.Designer.cs">
       <DependentUpon>StaffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\StudentDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\StudentDashboard.Designer.cs">
+      <DependentUpon>StudentDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\StudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\StudentForm.Designer.cs">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SujectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SujectForm.Designer.cs">
+      <DependentUpon>SujectForm.cs</DependentUpon>
     </Compile>
     <Compile Include="View\TeacherFormnew.cs">
       <SubType>Form</SubType>
@@ -141,6 +165,9 @@
     <EmbeddedResource Include="View\CourseForm.resx">
       <DependentUpon>CourseForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\Examform.resx">
+      <DependentUpon>Examform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +176,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\StaffForm.resx">
       <DependentUpon>StaffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\StudentDashboard.resx">
+      <DependentUpon>StudentDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\StudentForm.resx">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SujectForm.resx">
+      <DependentUpon>SujectForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\TeacherFormnew.resx">
       <DependentUpon>TeacherFormnew.cs</DependentUpon>

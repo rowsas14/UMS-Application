@@ -58,7 +58,7 @@ namespace UnicomTicManagement.Controller
                 using (var conn = DbCon.GetConnection())
                 using (var transaction = conn.BeginTransaction())
                 {
-                    // Insert into Users
+                    
                     string insertUserQuery = @"
                     INSERT INTO Users (Name, Username, Password, Email, Role)
                     VALUES (@Name, @Username, @Password, @Email, @Role);
@@ -76,7 +76,7 @@ namespace UnicomTicManagement.Controller
                         userId = (long)cmd.ExecuteScalar();
                     }
 
-                    // Insert into Students
+                 
                     string insertStudentQuery = @"
                     INSERT INTO Students (UserId, StudentNumber, CourseId)
                     VALUES (@UserId, @StudentNumber, @CourseId);";
@@ -96,7 +96,7 @@ namespace UnicomTicManagement.Controller
             }
             catch (SQLiteException ex) when (ex.ResultCode == SQLiteErrorCode.Constraint)
             {
-                // Handle UNIQUE constraint violation (username or student number duplicate)
+               
                 if (ex.Message.Contains("Users.Username"))
                     return "Error: Username already exists.";
                 else if (ex.Message.Contains("Students.StudentNumber"))

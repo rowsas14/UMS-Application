@@ -48,9 +48,20 @@ namespace UnicomTicManagement.View
                 }
                 else if (result.Role == "Student")
                 {
-                   
+                    StudentDashboard dashboard = new StudentDashboard();
+                    dashboard.Show();
+                    this.Hide();
+
                 }
-               
+
+                else if (result.Role == "Student")
+                {
+                    StudentDashboard dashboard = new StudentDashboard();
+                    dashboard.Show();
+                    this.Hide();
+
+                }
+
             }
             else
             {
